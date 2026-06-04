@@ -10,7 +10,7 @@ jobs:
   saludo:
     runs-on: ubuntu-latest
     env:
-      NOMBRE: "Andres Pagan"
+      NOMBRE: "Andy Hermenegildo"
     steps:
       - name: Saludo desde main
         if: github.ref == 'refs/heads/main'
